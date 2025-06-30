@@ -24,6 +24,9 @@ export default function Home() {
         <Heading size="lg" mb={4}>
           Cursuri populare
         </Heading>
+        <Heading size="lg" mb={4}>
+          Cursuri populare
+        </Heading>
         <SimpleGrid columns={[1, 2, 3]} spacing={6}></SimpleGrid>
       </Box>
     </Box>
