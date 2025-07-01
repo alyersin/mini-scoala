@@ -23,8 +23,8 @@ jobs:
       - name: Deploy over SSH
         run: |
           ssh -i ~/.ssh/id_ed25519 -p 1933 alyersin@5.14.7.222 << 'EOF'
-            cd /home/alyersin/mini-scoala
-            git pull
-            docker-compose down
-            docker-compose up -d --build
+          cd /home/alyersin/mini-scoala
+          git pull
+          docker-compose down
+          docker-compose up -d --build
           EOF
